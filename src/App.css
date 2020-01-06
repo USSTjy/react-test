@@ -1,0 +1,64 @@
+.App {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #0ab7e2;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.App-content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50px;
+  bottom: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.App-content-left {
+  background-color: aqua;
+  width: 20%;
+  height: 100%;
+  overflow: auto;
+}
+.App-content-right {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
+/*谷哥滚动条样式*/
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  position: absolute
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5bc0de
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ddd
+}
+.App-foot{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  height: 30px;
+  padding: 5px;
+}
